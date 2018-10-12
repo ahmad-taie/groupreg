@@ -15,4 +15,5 @@ Optional parameters:
     --embeds, Sentence embeddings file
     --batch, mini-batch size, default = 64
     --out, Output files prefix, default="batched"
+    --normalize, Uses the GroupReg probabilities, default = True (if false, uses probabilities according to cluster sizes "non-normalized")
 ```
